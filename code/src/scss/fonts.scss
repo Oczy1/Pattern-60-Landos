@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<Шрифт по умолчанию====================================================================================
+$fontFamily: "'Inter', sans-serif";
+//<Шрифт по умолчанию=========================================================================================
+
+
+
+
+
+
+
+
+//<Иконочный-ШРИФТ=================================================================================
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?ts20nr');
+    src:  url('../fonts/icomoon.eot?ts20nr#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?ts20nr') format('truetype'),
+      url('../fonts/icomoon.woff?ts20nr') format('woff'),
+      url('../fonts/icomoon.svg?ts20nr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-branch:before {
+    content: "\e900";
+    color: #fff;
+  }
+  .icon-card:before {
+    content: "\e901";
+    color: #fff;
+  }
+  .icon-chat:before {
+    content: "\e902";
+    color: #fff;
+  }
+  .icon-clock:before {
+    content: "\e903";
+    color: #fff;
+  }
+  .icon-desktop:before {
+    content: "\e904";
+    color: #fff;
+  }
+  .icon-download:before {
+    content: "\e905";
+    color: #fff;
+  }
+  .icon-g_translate:before {
+    content: "\e906";
+    color: #fff;
+  }
+  .icon-gamepad:before {
+    content: "\e907";
+    color: #fff;
+  }
+  .icon-phone:before {
+    content: "\e908";
+    color: #fff;
+  }
+  .icon-society:before {
+    content: "\e909";
+    color: #fff;
+  }
+  .icon-translate:before {
+    content: "\e90a";
+    color: #fff;
+  }
+  
+//<=======================================================================================================
