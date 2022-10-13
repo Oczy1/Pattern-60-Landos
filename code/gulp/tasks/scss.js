@@ -27,17 +27,17 @@ export const scss = () => {
             groupCssMediaQueries()
         )
     )
-    .pipe(
-        app.plugins.if(
-            app.isBuild,
-            webpcss(
-                {
-                    webpClass: ".webp",
-                    noWebpClass: ".no-webp"
-                }
-            )
-        )
-    )
+    // .pipe(
+    //     app.plugins.if(
+    //         app.isBuild,
+    //         webpcss(
+    //             {
+    //                 webpClass: ".webp",
+    //                 noWebpClass: ".no-webp"
+    //             }
+    //         )
+    //     )
+    // )
     .pipe(
         app.plugins.if(
             app.isBuild,
