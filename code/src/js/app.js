@@ -5,6 +5,5 @@ import * as oczyFunctions from "./modules/functions.js";
 
 
 oczyFunctions.scrollclick();
-
-
+oczyFunctions.animation();
 //oczyFunctions.parallax();

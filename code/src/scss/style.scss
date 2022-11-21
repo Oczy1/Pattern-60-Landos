@@ -74,3 +74,31 @@
 }
 .txt-block {
 }
+
+
+
+
+.animation-bottom {
+    opacity: 0;
+    transform: translateY(100px);
+}
+.animation-top {
+    opacity: 0;
+    transform: translateY(-100px);
+}
+.animation-left {
+    opacity: 0;
+    transform: translateX(-100px);
+}
+.animation-right {
+    opacity: 0;
+    transform: translateX(100px);
+}
+
+.animation.element-show {
+    opacity: 1;
+    transition: all 1s;
+    // transition: opacity 1s;
+    transform: translateX(0px);
+    transform: translateY(0px);
+}
